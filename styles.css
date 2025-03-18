@@ -12,9 +12,8 @@ header {
   color: #fff;
   padding: 20px;
 }
-header .logo {
-  font-size: 1.8em;
-  font-weight: bold;
+header .logo img {
+  height: 50px;
 }
 header nav ul {
   list-style: none;
