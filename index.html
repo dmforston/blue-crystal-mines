@@ -1,65 +1,78 @@
-<!DOCTYPE html>
+no<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Crystal Mines - Home of the World-Famous La Sal Azurite</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Crystal Mines | Explore Natural Wonders</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Blue Crystal Mines Logo" class="logo">
-        <h1>Blue Crystal Mines</h1>
-        <p class="slogan">Home of the World-Famous La Sal Azurite</p>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#articles">Articles & History</a></li>
-                <li><a href="#mineral-collecting">Mineral Collecting</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header> <div class="logo">
+      <img src="images/2A78D359-0AD6-49BD-B9EF-6E46AA1BCF42.png" alt="Blue Crystal Mines Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#articles">Articles & History</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#mineral-collecting">Mineral Collecting</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="home">
-        <img src="hero-bg.jpg" alt="Hero Image" class="hero-image">
-        <h2>Discover the Beauty of La Sal Azurite</h2>
-        <p>Come visit us and explore our world-renowned mineral collections from the heart of Utah.</p>
-    </section>
+  <section class="hero">
+    <h1>Discover the Magic of Blue Crystal Mines</h1>
+    <p>Explore hidden natural treasures beneath the earth.</p>
+    <a href="#visit" class="btn">Plan Your Visit</a>
+  </section>
 
-    <section id="products">
-        <h2>Products</h2>
-        <ul>
-            <li><strong>Blueberries</strong> - Small Azurite concretions ranging from 1/8” to 2”. <a href="https://bluecrystalmines.com/products/7-blueberries">Learn more</a></li>
-            <li><strong>Azurite Crystal Geodes</strong> - Popped Azurite rosettes, some polished. <a href="https://bluecrystalmines.com/products/4-azurite-crystal-geodes">Learn more</a></li>
-            <li><strong>Blueberry Geodes</strong> - Geodes from Blueberry concretions. <a href="https://bluecrystalmines.com/products/5-blueberry-geodes">Learn more</a></li>
-            <li><strong>Stabilized Azurite/Malachite Bricks</strong> - Used for cutting into various products. <a href="https://bluecrystalmines.com/products/16-compressed-and-stabilized-azurite-malachite-bricks">Learn more</a></li>
-            <li><strong>Electro-formed Azurite/Malachite Pieces</strong> - Stones wrapped in gold or silver. <a href="https://bluecrystalmines.com/products/14-gold-and-siver-electroformed-azurite-and-malachite-pieces">Learn more</a></li>
-        </ul>
-    </section>
+  <section id="about" class="about">
+    <h2>About Blue Crystal Mines</h2>
+    <p>Blue Crystal Mines is a one-of-a-kind natural wonder located in Utah, where visitors can explore dazzling blue crystals formed over thousands of years. Come experience nature's art!</p>
+  </section>
 
-    <section id="articles">
-        <h2>Articles & History</h2>
-        <p>Before adopting the name Blue Crystal Mines, the area was known by various names such as Big Indian Mine and Blue Grotto.</p>
-        <p><strong>Featured Article:</strong> "Azurite and Malachite Concretions Along the Lisbon Valley Fault" <a href="https://bluecrystalmines.com/about-us/43-azurite-and-malachite-concretions">Read more</a></p>
-    </section>
+  <section id="visit" class="visit">
+    <h2>Visit Us</h2>
+    <p>We offer guided tours for families, geology enthusiasts, and school groups. Open year-round, weather permitting. Book in advance to secure your spot!</p>
+    <a href="#" class="btn">Book a Tour</a>
+  </section>
 
-    <section id="mineral-collecting">
-        <h2>Mineral Collecting & Tours</h2>
-        <p>Join our mineral collecting tours at Blue Crystal Mines. Contact us for bookings and more information. <a href="https://www.bluecrystalmines.com/shows-and-events">Learn more</a></p>
-        <p>Watch <strong>The Crystal Collector</strong> explore our site: <a href="https://bluecrystalmines.com/updates">Watch Video</a></p>
-    </section>
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="image-grid">
+      <img src="images/IMG_8497.jpeg" alt="Blue Crystal Close-up" />
+      <img src="images/IMG_8502.jpeg" alt="Inside the mine" />
+      <img src="images/IMG_8496.jpeg" alt="Geodes and crystals" />
+      <img src="images/IMG_0333.jpeg" alt="Visitors at Blue Crystal Mines" />
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+              <h2>Contact Information</h2>
         <p>Email: info@bluecrystalmines.com</p>
         <p>Phone: (555) 123-4567</p>
         <p>Location: La Sal, Utah</p>
-    </section>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=https://goo.gl/maps/J69MPrWtZbAEAU9N9" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Blue Crystal Mines. All Rights Reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Blue Crystal Mines. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
